@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>People Counter App</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="box">
+		<h1>In The Subway</h1>
+		<section id="enter">
+			<h3 id="heading">People Entered : </h3>
+			<h2 id="count-enter">0</h2>
+			<button id="increment-btn" onclick="increment()">Enter</button>
+			<p id="prev-entry">Previous Entires : </p>
+		</section>
+		<section id="left">
+			<h3 id="heading">People Left : </h3>
+			<h2 id="count-left">0</h2>
+			<button id="decrement-btn" onclick="decrement()">Left</button>
+			<p id="prev-left">Previous Entires : </p>
+		</section>
+		
+		<br>
+		<section id="result">
+			<button id="save-btn" onclick="save()">SAVE</button>
+			<h4>Total people In the Subway : <span id="total">0</span></h4>
+		</section>
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
